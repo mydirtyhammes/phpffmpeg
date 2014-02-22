@@ -33,10 +33,7 @@ require 'dnxhd.php';
         </ul>
         <p>
             <form action="" method="post"enctype="multipart/form-data">
-                <div class="fieldset">
-                        <label for="file">Video file:</label>
-                        <input type="file" name="file" id="file" />
-                </div>
+        
 
 
                 <div class="fieldset">
