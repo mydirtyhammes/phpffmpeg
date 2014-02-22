@@ -20,7 +20,7 @@ require 'dnxhd.php';
 <body>
     <div id="header-container">
         <header class="wrapper">
-            <h1 id="title">FFMPEG via PHP</h1>
+            <h1 id="title">DNXHD Batch Converter</h1>
         </header>
     </div>
     <div id="main" class="wrapper">
