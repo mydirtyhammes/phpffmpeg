@@ -1,6 +1,7 @@
 <?php
 require 'config.php';
 require 'functions.php';
+require 'dnxhd.php';
 ?><!DOCTYPE html>
 <head>
 <meta charset="utf-8" />
@@ -36,17 +37,4 @@ require 'functions.php';
         </p>
     </div>
 </body>
-</html><!--
-
-sample commands ..
-
-c:\ffmpeg\bin\ffmpeg.exe -i "C:\ffmpeg\FILE0055.MOV" -acodec libvo_aacenc -ac 2
--ab 128 -ar 22050 -s 1024x768 -vcodec libx264 -fpre "C:\ffmpeg\presets\libx264-i
-pod640.ffpreset" -b 1200k -f mp4 -threads 0 FILE0055.mp4
-
-c:\ffmpeg\bin\ffmpeg.exe -i "C:\ffmpeg\FILE0055.MOV" -fpre "C:\ffmpeg\presets\li
-bx264-ipad.ffpreset" FILE0055.mp4
-
-c:\ffmpeg\bin\ffmpeg.exe -i "C:\ffmpeg\GOD AT THE MOVIES - WEEK 1 - I LOST JESUS
-.mp4" -vn -ar 44100 -ac 2 -f mp3 -ab 128000 "GOD AT THE MOVIES - WEEK 1 - I LOST
- JESUS.mp3" -->
+</html>
